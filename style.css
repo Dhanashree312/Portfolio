@@ -2,7 +2,7 @@
     --color-body:#b6cbce;
     --color-heading:#eef3db;
     --color-base:#033f47;
-    --color-base2:#022a30;
+    --color-base2:#165059;
     --color-brand:#e0f780;
     --color-brand2:#deff58;
     --sidbar-width:240px;
@@ -27,4 +27,14 @@ a:hover{
 }
 img{
     width: 100%;
+}
+/* Navbar ended */
+@media(min-width:992px){
+    .navbar{
+        min-height: 100vh;
+        width: var(--sidbar-width);
+        background: linear-gradient(rgba(3,63,71,0.9),rgba(3,63,71,0.9)),url(./images/bgimg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
 }

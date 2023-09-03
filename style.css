@@ -28,6 +28,10 @@ a:hover{
 img{
     width: 100%;
 }
+.navbar .nav-link{
+    font-weight: 700;
+    text-transform: uppercase;
+}
 /* Navbar ended */
 @media(min-width:992px){
     .navbar{
